@@ -7,8 +7,9 @@
   "author": "Mohit <mohit@hey.com>",
   "license": "UNLICENSED",
   "scripts": {
+    "build": "sanity build public -y",
     "start": "sanity start",
-    "build": "sanity build public -y"
+    "test": "sanity check"
   },
   "keywords": [
     "sanity"

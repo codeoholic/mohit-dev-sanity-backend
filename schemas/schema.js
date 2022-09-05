@@ -7,6 +7,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type"
 import categories from "./categories"
 import gist from "./gist"
 import post from "./post"
+import nextJS from "./next-js"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -16,6 +17,7 @@ export default createSchema({
 
 		categories,
 		gist,
+		nextJS,
 		post,
 
 	]),

@@ -21,6 +21,14 @@ export default {
 			of: [{type: 'block'}]
 
 		},
+        {
+
+			name: "body_hindi",
+			type: "array",
+			title: "Body Hindi",
+			of: [{type: 'block'}]
+
+		},
 		{
 
 			name: "description",

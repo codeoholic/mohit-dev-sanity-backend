@@ -15,6 +15,14 @@ export default {
 		},
 		{
 
+			name: "title_hindi",
+			type: "string",
+			title: "Title Hindi",
+			description: "title of the post",
+
+		},
+		{
+
 			name: "body",
 			type: "array",
 			title: "Body",

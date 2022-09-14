@@ -81,6 +81,34 @@ export default {
 			title: "Meta Image URL",
 			description: "url"
 
+		},
+		{
+
+			name: "next_link_title",
+			type: "string",
+			title: "Next Link Title"
+
+		},
+		{
+
+			name: "next_link_url",
+			type: "string",
+			title: "Next Link URL"
+
+		},
+		{
+
+			name: "previous_link_title",
+			type: "string",
+			title: "Previous Link Title"
+
+		},
+		{
+
+			name: "previous_link_url",
+			type: "string",
+			title: "Previous Link URL"
+
 		}
 
 	]

@@ -5,6 +5,7 @@ import createSchema from "part:@sanity/base/schema-creator"
 import schemaTypes from "all:part:@sanity/base/schema-type"
 
 import categories from "./categories"
+import finance from "./finance"
 import gist from "./gist"
 import post from "./post"
 import nextJS from "./next-js"
@@ -16,6 +17,7 @@ export default createSchema({
 	types: schemaTypes.concat([
 
 		categories,
+		finance,
 		gist,
 		nextJS,
 		post,

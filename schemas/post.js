@@ -47,17 +47,11 @@ export default {
 		},
 		{
 
-			name: "tags",
-			type: "string",
-			title: "Tags"
-
-		},
-		{
-
 			name: "categories",
 			title: "Categories",
 			type: "array",
-			of: [{ type: "reference", to: { type: "categories" } }],
+			of: [{ type: "reference", to: { type: "categories" } }]
+
     	},
 		{
 

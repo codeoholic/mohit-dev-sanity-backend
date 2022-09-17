@@ -10,7 +10,7 @@ export default {
 			name: "title",
 			type: "string",
 			title: "Title",
-			description: "title of the post",
+			description: "title of the category",
 
 		},
 		{
